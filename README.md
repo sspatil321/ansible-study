@@ -32,3 +32,5 @@
 ### They are triggered using notify.
 
 ### If the task reports "changed", the handler runs at the end of the playbook.
+
+### This makes the playbook idempotent — which means I can run it multiple times, and it only makes changes when needed. It’s efficient and avoids unnecessary service restarts.
