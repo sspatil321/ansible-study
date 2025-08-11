@@ -22,3 +22,11 @@
       service:
         name: httpd
         state: restarted
+
+
+
+### Handlers are defined under the handlers section.
+
+  They are triggered using notify.
+
+  If the task reports "changed", the handler runs at the end of the playbook.
