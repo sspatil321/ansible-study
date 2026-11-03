@@ -1,5 +1,5 @@
 # ansible-study
-## Handlers - 
+## Handlers - This are handlers.
 ### Handlers in Ansible are special tasks that run only when notified.They're usually used for things like restarting a service after a config file has changed.Think of them like ‘event-driven’ tasks. If something changes, then the handler is triggered — if not, it's skipped. This helps avoid unnecessary restarts or reconfigurations.
 
 
